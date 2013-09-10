@@ -1,6 +1,6 @@
 class NotificationsMailer < ActionMailer::Base
 
-  default :from => "admin@dialadrinksheffield.com"
+  default :from => "Admin@dialadrinksheffield.com"
   default :to => "dialadrinkoffice@gmail.com"
 
   def new_message(message)

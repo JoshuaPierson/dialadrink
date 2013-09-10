@@ -21,11 +21,11 @@ module DialabeerApp
     # config.i18n.default_locale = :de
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
+  :address              => "demon.xssl.net",
+  :port                 => 465,
   :domain               => "dialadrinksheffield.com",
-  :user_name            => "admin@dialadrinksheffield.com",
-  :password             => "Hallambooze1Sheffield",
+  :user_name            => "Admin@dialadrinksheffield.com",
+  :password             => "Dialadrinkadmin1",
   :authentication       => :plain,
   :enable_starttls_auto => true
 }
