@@ -9,9 +9,12 @@ get '/offers', 		to: 'main#offers'
 get '/terms',		to: 'main#terms'
 
 #match 'contact' => 'contact#new', :as => 'contact', :via => :get
+match "/contact/" => "contact#new", via: :get
+match "/contact/" => "contact#create", via: :post
 #match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
-resources "contact"  # The priority is based upon order of creation: first created -> highest priority.
+# resources "contact"
+  # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
